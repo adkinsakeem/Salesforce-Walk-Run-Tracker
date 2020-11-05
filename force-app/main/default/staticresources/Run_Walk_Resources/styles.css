@@ -1,0 +1,31 @@
+	#mainTitle{
+		font-family: Sans-Serif;
+		font-size: 48px;
+		color: #042DDB;
+	}
+	#sortOption{
+		text-align: right;
+	}
+	.RunsBlocks{
+		font-weight:600;
+		font-size: 22px;
+		font-family: "Gentium Basic";
+	}
+
+	.RunBlockHeader{
+		font-weight:200;
+		font-size: 18px;
+		font-family: "Gentium Basic";
+		background-color: #e8e8e8;
+	}
+
+
+	body .pbBody table.list tr.headerRow td, body .pbBody table.list tr.headerRow th{
+		background-color: navy;
+		border-color: navy;
+		color: white;
+	}
+
+	.pbBody, .pbBody a, .pbBody td, .lbBody a, .lbBodyDescription, .list .headerRow .noRowsHeader{
+		border-bottom-color: darkgrey !important;
+	}

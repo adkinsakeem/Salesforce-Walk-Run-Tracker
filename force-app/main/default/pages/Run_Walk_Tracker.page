@@ -1,0 +1,58 @@
+<apex:page controller="sortRunWalkData">
+<apex:stylesheet value="https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&family=Gentium+Basic:ital@0;1&display=swap"/>
+<apex:stylesheet value="{!URLFOR($Resource.Run_Walk_Resources, 'styles.css')}"/>
+
+<header>
+<apex:image alt="Logo" url="{!$Resource.RunWalkLogo}" width="85" height="60"/>
+  <div id="mainTitle"><center>Walk/Run Tracker</center></div>
+  </header>
+  <br></br>
+  <apex:form >
+  <div id="sortOption">
+  <apex:selectList id="sortOption" value="{!sortPick}" multiSelect="false" size="1">
+   <apex:selectOption itemLabel="Recent" itemValue="Recent"/>
+   <apex:selectOption itemLabel="Name" itemValue="Name"/>
+   <apex:selectOption itemLabel="Run Type" itemValue="Run_Type"/>
+   <apex:selectOption itemLabel="Shortest Time" itemValue="Shortest_Time"/>
+   <apex:selectOption itemLabel="Longest Time" itemValue="Longest_Time"/>
+   <apex:selectOption itemLabel="Shortest Distance" itemValue="Shortest_Distance"/>
+   <apex:selectOption itemLabel="Longest_Distance" itemValue="Longest_Distance"/>
+   <apex:actionSupport event="onchange" reRender="pageTable"/>
+  </apex:selectList>
+  </div>
+  </apex:form>
+    <div class="RunsBlocks">
+
+<apex:outputPanel styleClass="runsTitle" id="pageTable">
+  <apex:pageBlock title="Runs">
+            <apex:PageBlockTable value="{!List}" var="RunWalkList" >
+            <apex:column styleClass="RunBlockHeader" headerValue="Run Type">
+            <apex:outputfield styleClass="RunsBlocks" value="{!RunWalkList.Type_of_Run_Walk__c}"/> &nbsp;
+            <apex:outputField styleClass="RunsBlocks" value="{!RunWalkList.Run_Type__c}"/>
+            </apex:column>
+            <apex:column styleClass="RunBlockHeader" headerValue="Date">
+            <apex:outputfield styleClass="RunsBlocks" value="{!RunWalkList.Run_Date__c}"/>
+            </apex:column>
+            <apex:column styleClass="RunBlockHeader" headerValue="Runner">
+            <apex:outputfield styleClass="RunsBlocks" value="{!RunWalkList.Runner_Name__c}"/>
+            </apex:column>
+            <apex:column styleClass="RunBlockHeader" headerValue="Run Time">
+            <apex:outputfield styleClass="RunsBlocks" value="{!RunWalkList.Duration_of_Run__c}"/>
+            </apex:column>
+            <apex:column styleClass="RunBlockHeader" headerValue="Distance Ran">
+            <apex:outputfield styleClass="RunsBlocks" value="{!RunWalkList.Distance_Ran__c}"/>
+            </apex:column>
+
+            
+            
+                        </apex:PageBlockTable>
+                          </apex:pageBlock>
+                          </apex:outputPanel>
+                          </div>
+                          
+
+
+            
+            
+  
+</apex:page>

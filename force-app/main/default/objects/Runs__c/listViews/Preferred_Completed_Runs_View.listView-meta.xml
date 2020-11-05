@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Completed_Runs_View</fullName>
+    <columns>Runner_Name__c</columns>
+    <columns>Run_Date__c</columns>
+    <columns>Run_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Preferred Completed Runs View</label>
+</ListView>

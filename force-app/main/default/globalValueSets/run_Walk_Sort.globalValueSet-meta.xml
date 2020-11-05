@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Recent</fullName>
+        <default>true</default>
+        <label>Recent</label>
+    </customValue>
+    <customValue>
+        <fullName>Name</fullName>
+        <default>false</default>
+        <label>Name</label>
+    </customValue>
+    <customValue>
+        <fullName>Type of Run</fullName>
+        <default>false</default>
+        <label>Type of Run</label>
+    </customValue>
+    <customValue>
+        <fullName>Longest Time</fullName>
+        <default>false</default>
+        <label>Longest Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Shortest Time</fullName>
+        <default>false</default>
+        <label>Shortest Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Longest Distance</fullName>
+        <default>false</default>
+        <label>Longest Distance</label>
+    </customValue>
+    <customValue>
+        <fullName>Shortest Distance</fullName>
+        <default>false</default>
+        <label>Shortest Distance</label>
+    </customValue>
+    <description>This allows the user to sort the Run/Walk entries by preferred category.</description>
+    <masterLabel>run/Walk Sort</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

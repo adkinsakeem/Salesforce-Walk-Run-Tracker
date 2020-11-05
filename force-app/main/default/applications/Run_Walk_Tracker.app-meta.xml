@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>This will keep track of daily runs or walks.</description>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Run/Walk Tracker</label>
+    <logo>Run_Walk_App_Images/New_Run_Walk_App_Logo.png</logo>
+    <tabs>Runner__c</tabs>
+    <tabs>Runs__c</tabs>
+</CustomApplication>

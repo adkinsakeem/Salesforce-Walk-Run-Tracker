@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Tony Stark</fullName>
+        <default>false</default>
+        <label>Tony Stark</label>
+    </customValue>
+    <customValue>
+        <fullName>Steve Rogers</fullName>
+        <default>false</default>
+        <label>Steve Rogers</label>
+    </customValue>
+    <customValue>
+        <fullName>Bruce Banner</fullName>
+        <default>false</default>
+        <label>Bruce Banner</label>
+    </customValue>
+    <customValue>
+        <fullName>Thor Odinson</fullName>
+        <default>false</default>
+        <label>Thor Odinson</label>
+    </customValue>
+    <customValue>
+        <fullName>Natasha Romanoff</fullName>
+        <default>false</default>
+        <label>Natasha Romanoff</label>
+    </customValue>
+    <customValue>
+        <fullName>Clint Barton</fullName>
+        <default>false</default>
+        <label>Clint Barton</label>
+    </customValue>
+    <customValue>
+        <fullName>James Rhodes</fullName>
+        <default>false</default>
+        <label>James Rhodes</label>
+    </customValue>
+    <customValue>
+        <fullName>Scott Lang</fullName>
+        <default>false</default>
+        <label>Scott Lang</label>
+    </customValue>
+    <customValue>
+        <fullName>T&apos;Challa</fullName>
+        <default>false</default>
+        <label>T&apos;Challa</label>
+    </customValue>
+    <customValue>
+        <fullName>Carol Danvers</fullName>
+        <default>false</default>
+        <label>Carol Danvers</label>
+    </customValue>
+    <customValue>
+        <fullName>Peter Parker</fullName>
+        <default>false</default>
+        <label>Peter Parker</label>
+    </customValue>
+    <customValue>
+        <fullName>Nebula</fullName>
+        <default>false</default>
+        <label>Nebula</label>
+    </customValue>
+    <customValue>
+        <fullName>Gamora</fullName>
+        <default>false</default>
+        <label>Gamora</label>
+    </customValue>
+    <customValue>
+        <fullName>Hope Van Dyne</fullName>
+        <default>false</default>
+        <label>Hope Van Dyne</label>
+    </customValue>
+    <customValue>
+        <fullName>Valkerie</fullName>
+        <default>false</default>
+        <label>Valkerie</label>
+    </customValue>
+    <customValue>
+        <fullName>Frigga</fullName>
+        <default>false</default>
+        <label>Frigga</label>
+    </customValue>
+    <customValue>
+        <fullName>Sam Wilson</fullName>
+        <default>false</default>
+        <label>Sam Wilson</label>
+    </customValue>
+    <customValue>
+        <fullName>Bucky Barnes</fullName>
+        <default>false</default>
+        <label>Bucky Barnes</label>
+    </customValue>
+    <customValue>
+        <fullName>Loki Odinson</fullName>
+        <default>false</default>
+        <label>Loki Odinson</label>
+    </customValue>
+    <customValue>
+        <fullName>Okoye</fullName>
+        <default>false</default>
+        <label>Okoye</label>
+    </customValue>
+    <customValue>
+        <fullName>Wong</fullName>
+        <default>false</default>
+        <label>Wong</label>
+    </customValue>
+    <customValue>
+        <fullName>Howard Stark</fullName>
+        <default>false</default>
+        <label>Howard Stark</label>
+    </customValue>
+    <customValue>
+        <fullName>The Ancient One</fullName>
+        <default>false</default>
+        <label>The Ancient One</label>
+    </customValue>
+    <customValue>
+        <fullName>Happy Hogan</fullName>
+        <default>false</default>
+        <label>Happy Hogan</label>
+    </customValue>
+    <customValue>
+        <fullName>Peggy Carter</fullName>
+        <default>false</default>
+        <label>Peggy Carter</label>
+    </customValue>
+    <customValue>
+        <fullName>Korg</fullName>
+        <default>false</default>
+        <label>Korg</label>
+    </customValue>
+    <customValue>
+        <fullName>Ramonda</fullName>
+        <default>false</default>
+        <label>Ramonda</label>
+    </customValue>
+    <customValue>
+        <fullName>Hank Pym</fullName>
+        <default>false</default>
+        <label>Hank Pym</label>
+    </customValue>
+    <customValue>
+        <fullName>Maria Hill</fullName>
+        <default>false</default>
+        <label>Maria Hill</label>
+    </customValue>
+    <customValue>
+        <fullName>M&apos;Baku</fullName>
+        <default>false</default>
+        <label>M&apos;Baku</label>
+    </customValue>
+    <customValue>
+        <fullName>Brock Rumlow</fullName>
+        <default>false</default>
+        <label>Brock Rumlow</label>
+    </customValue>
+    <customValue>
+        <fullName>Ebony Maw</fullName>
+        <default>false</default>
+        <label>Ebony Maw</label>
+    </customValue>
+    <customValue>
+        <fullName>Vision</fullName>
+        <default>false</default>
+        <label>Vision</label>
+    </customValue>
+    <customValue>
+        <fullName>Ned</fullName>
+        <default>false</default>
+        <label>Ned</label>
+    </customValue>
+    <customValue>
+        <fullName>Groot</fullName>
+        <default>false</default>
+        <label>Groot</label>
+    </customValue>
+    <customValue>
+        <fullName>Pepper Potts</fullName>
+        <default>false</default>
+        <label>Pepper Potts</label>
+    </customValue>
+    <customValue>
+        <fullName>Alexander Pierce</fullName>
+        <default>false</default>
+        <label>Alexander Pierce</label>
+    </customValue>
+    <customValue>
+        <fullName>Thanos</fullName>
+        <default>false</default>
+        <label>Thanos</label>
+    </customValue>
+    <customValue>
+        <fullName>Nick Fury</fullName>
+        <default>false</default>
+        <label>Nick Fury</label>
+    </customValue>
+    <customValue>
+        <fullName>Red Skull</fullName>
+        <default>false</default>
+        <label>Red Skull</label>
+    </customValue>
+    <customValue>
+        <fullName>Corvus Glaive</fullName>
+        <default>false</default>
+        <label>Corvus Glaive</label>
+    </customValue>
+    <customValue>
+        <fullName>Akihiko</fullName>
+        <default>false</default>
+        <label>Akihiko</label>
+    </customValue>
+    <customValue>
+        <fullName>Shuri</fullName>
+        <default>false</default>
+        <label>Shuri</label>
+    </customValue>
+    <customValue>
+        <fullName>Drax</fullName>
+        <default>false</default>
+        <label>Drax</label>
+    </customValue>
+    <customValue>
+        <fullName>Mantis</fullName>
+        <default>false</default>
+        <label>Mantis</label>
+    </customValue>
+    <customValue>
+        <fullName>Stephen Strange</fullName>
+        <default>false</default>
+        <label>Stephen Strange</label>
+    </customValue>
+    <customValue>
+        <fullName>Rocket</fullName>
+        <default>false</default>
+        <label>Rocket</label>
+    </customValue>
+    <customValue>
+        <fullName>Peter Quill</fullName>
+        <default>false</default>
+        <label>Peter Quill</label>
+    </customValue>
+    <customValue>
+        <fullName>Jennifer Walters</fullName>
+        <default>false</default>
+        <label>Jennifer Walters</label>
+    </customValue>
+    <description>The real names of the MCU characters</description>
+    <masterLabel>Character_Names</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

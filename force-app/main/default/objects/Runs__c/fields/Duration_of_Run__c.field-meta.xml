@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duration_of_Run__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>This shows the duration of the run with the word &quot;minutes&quot; in front of it.</description>
+    <externalId>false</externalId>
+    <formula>TEXT(Run_Duration__c) &amp; &quot; minutes&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Duration of Run</label>
+    <required>false</required>
+    <securityClassification>Public</securityClassification>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,17 @@
+<apex:page controller="cc2" extensions="ext1">
+<apex:image url="{!$Resource.AccImage}"/>
+<apex:pageBlock Title="List of my Accounts">
+<apex:pageBlockTable value="{!ListAcc}" var="acc">
+<apex:column value="{!acc.id}"/>
+<apex:column value="{!acc.name}"/>
+</apex:pageBlockTable>
+</apex:pageBlock>
+
+<apex:pageBlock Title="List of my Opportunities">
+<apex:pageBlockTable value="{!ListOpp}" var="opp">
+<apex:column value="{!opp.id}"/>
+<apex:column value="{!opp.name}"/>
+</apex:pageBlockTable>
+</apex:pageBlock>
+<p> {!ext1M1} </p>
+</apex:page>

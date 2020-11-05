@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Runner_Name__c</fullName>
+    <description>The name of the runner who completed the run.</description>
+    <externalId>false</externalId>
+    <label>Runner</label>
+    <referenceTo>Runner__c</referenceTo>
+    <relationshipLabel>Completed Runs</relationshipLabel>
+    <relationshipName>Completed_Runs</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Run_Walk__c</fullName>
+    <description>This will display an image of the type of run/walk that was completed.</description>
+    <externalId>false</externalId>
+    <formula>IF((TEXT(Run_Type__c) == &quot;Treadmill Run&quot;),IMAGE(&quot;https://akeemadkins-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0153t000003J4eM&quot;, &quot;Treadmill Run&quot;, 100, 150), 
+		IF((TEXT(Run_Type__c) == &quot;Treadmill Walk&quot;),IMAGE(&quot;https://akeemadkins-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0153t000003J4eb&quot;, &quot;Treadmill Walk&quot;, 100, 150), 
+				IF((TEXT(Run_Type__c) == &quot;Neighborhood Run&quot;),IMAGE(&quot;https://akeemadkins-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0153t000003J4e7&quot;, &quot;Neighborhood Run&quot;, 100, 150), 
+						IF((TEXT(Run_Type__c) == &quot;Neighborhood Walk&quot;),IMAGE(&quot;https://akeemadkins-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0153t000003J4eC&quot;, &quot;Treadmill Walk&quot;, 100, 150),&quot;&quot;))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Type of Run/Walk</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

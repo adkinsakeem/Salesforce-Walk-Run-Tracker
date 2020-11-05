@@ -1,0 +1,12 @@
+<apex:page >
+  <apex:pageBlock >
+  This is just to test the page block
+  <apex:pageblockSection title="First Section" columns="2">
+  Section 01
+  </apex:pageblockSection>
+  <apex:pageBlockSection >
+  Section 02
+  </apex:pageBlockSection>
+  </apex:pageBlock> 
+  
+</apex:page>
