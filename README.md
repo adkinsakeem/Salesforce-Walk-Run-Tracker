@@ -6,7 +6,7 @@ Run/Walk Tracker is a Salesforce Org that tracks the daily runs and walks comple
 ## Usage
 ### Salesforce.com
 #### Temporary User (Read Only)
-User Name: 'Salesforce.Tempuser@gmail.com'\
+User Name: Salesforce.Tempuser<!-- -->@gmail.com\
 Password: Welcome2020
 
 
